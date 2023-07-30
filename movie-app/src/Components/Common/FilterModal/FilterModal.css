@@ -1,0 +1,13 @@
+.btn-ok{
+    transition: 0.7s;
+    background-color: #FFFFFF;
+}
+
+.btn-ok:hover{
+    transition: 0.7s;
+    background-color: #FFFFFF11;
+}
+
+.sep-left{
+    border-right: 1px solid #585544;
+}

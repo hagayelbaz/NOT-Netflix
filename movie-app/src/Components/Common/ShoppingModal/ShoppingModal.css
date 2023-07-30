@@ -1,0 +1,45 @@
+.btn-ok{
+    transition: 0.7s;
+    background-color: #FFFFFF;
+}
+
+.btn-ok:hover{
+    transition: 0.7s;
+    background-color: #FFFFFF11;
+}
+
+.sep-left{
+    border-right: 1px solid #585544;
+}
+
+.card-border{
+    border:2px #FF0000 solid !important;
+    border-radius: 3px !important;
+}
+
+.cancel-icon{
+    transition: 0.7s;
+    color:#ff0000;
+}
+
+
+
+.cancel-icon:hover, .empty-card:hover{
+    transition: 0.7s;
+    color: #FFFFFF;
+    border-color: #FFFFFF !important;
+}
+
+.cancel-icon:active, .empty-card:active{
+    transition: 0s;
+    color:#FF0000;
+    border-color: #ff0000 !important;
+}
+
+.empty-card{
+    transition: 0.7s;
+    color: #ff0000;
+    border-radius: 4px;
+    border:1px #ff0000 solid !important;
+    background-color: transparent;
+}

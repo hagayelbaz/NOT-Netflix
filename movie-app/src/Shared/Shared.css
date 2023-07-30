@@ -1,0 +1,35 @@
+.dark-color{
+    background-color: #141414;
+}
+
+.pt-15{
+    padding-top: 15rem;
+}
+
+.pt-10{
+    padding-top: 10rem;
+}
+
+.pt-7{
+    padding-top: 7rem;
+}
+
+
+.icon{
+    font-size: 24px;
+}
+
+
+.custom-btn{
+    font-weight: bold !important;
+    transition: 0.5s;
+}
+
+.custom-btn:disabled{
+    background-color: #FFFFFF55 !important;
+}
+
+.custom-btn:not(:disabled):hover{
+    transition: 0.5s;
+    opacity: 0.7;
+}

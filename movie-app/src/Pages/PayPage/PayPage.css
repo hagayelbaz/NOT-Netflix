@@ -1,0 +1,65 @@
+
+.form-bg{
+    background-color: #14141455;
+}
+
+.form{
+    background-color: rgba(50,50,50,0.6);
+    border-radius: 15px;
+}
+
+.form-control-holder {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.form-input {
+    background-color: transparent !important;
+    border: 0 !important;
+    color: white !important;
+    border-bottom: 3px solid #dfdfdf !important;
+    outline: none;
+    width: 100%;
+}
+
+.form-label {
+    cursor: text;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #aaaaaa;
+    transition: .35s ease-in-out;
+    font-size: 16px;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+    top: -25px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.form-input:focus:invalid{
+    border-bottom-color: red !important;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #dfdfdf;
+    color: #dfdfdf;
+}
+
+.btn-primary-outline:hover{
+    background-color: transparent;
+    border-color: #dfdfdf55;
+    color: #dfdfdf55;
+}
+
+/* this code only when user register with auto-complete for background don't be change*/
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}

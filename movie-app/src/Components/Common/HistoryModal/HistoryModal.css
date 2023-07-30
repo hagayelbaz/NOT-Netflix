@@ -1,0 +1,27 @@
+
+.history-item{
+    border:1px white solid !important;
+}
+
+.history-item:hover{
+    border-color: #ff0000 !important;
+}
+
+.clear-history:hover{
+    transition: 0.7s;
+    color: #FFFFFF;
+    border-color: #FFFFFF !important;
+}
+.clear-history:active{
+    transition: 0s;
+    color:#FF0000;
+    border-color: #ff0000 !important;
+}
+
+.clear-history{
+    transition: 0.7s;
+    color: #ff0000;
+    border-radius: 4px;
+    border:1px #ff0000 solid !important;
+    background-color: transparent;
+}

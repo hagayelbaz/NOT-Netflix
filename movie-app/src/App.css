@@ -1,0 +1,17 @@
+.image-main-row {
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-container {
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+}

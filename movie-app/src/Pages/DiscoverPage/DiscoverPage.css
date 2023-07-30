@@ -1,0 +1,14 @@
+.dropdown-color{
+    background-color: #141414;
+}
+
+.h-btn:hover{
+    transition: 0.7s;
+    color: #FFFFFF !important;
+}
+
+
+.h-btn{
+    transition: 0.7s;
+    color: #888888 !important;
+}

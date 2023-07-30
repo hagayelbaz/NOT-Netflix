@@ -1,0 +1,23 @@
+
+
+.show-input {
+    transition:1s; /* Adjust the duration as desired */
+    opacity: 0;
+    transform: translateX(70%);
+}
+
+.show-input:focus {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.search-text{
+    border: 1px white solid;
+    outline: none;
+    color: white;
+    background-color: #000000C0 !important;
+}
+
+.search-text::placeholder{
+    color: #7f7f7f;
+}
